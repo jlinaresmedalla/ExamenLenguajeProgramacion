@@ -1,0 +1,56 @@
+package model;
+
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+import javax.persistence.NamedQuery;
+import javax.persistence.Table;
+
+@Entity
+@Table(name = "subject")
+@NamedQuery(name = "Rol.findAll", query = "SELECT r FROM Subject r")
+public class Subject {
+
+	@Id
+	@Column(name = "idsubject")
+	private int idsubject;
+	
+	@Column(name = "subject")
+	private String subject;
+	
+	@Column(name = "credits")
+	private String credits;
+
+	public Subject() {
+		
+	}
+	
+	public int getIdrol() {
+		return idsubject;
+	}
+
+	public void setIdrol(int idsubject) {
+		this.idsubject = idsubject;
+	}
+
+	public String getRolName() {
+		return subject;
+	}
+
+	public void setRolName(String subject) {
+		this.subject = subject;
+	}
+
+	public String getRolStatus() {
+		return credits;
+	}
+
+	public void setRolStatus(String credits) {
+		this.credits = credits;
+	}
+	
+	
+	
+}

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="daos.SubjectDao"/>
+    <fullyQualifiedTypeName name="daos.SubjectDaoImpl"/>
+    <fullyQualifiedTypeName name="model.Subject"/>
+</qualifiedTypeNameHistroy>

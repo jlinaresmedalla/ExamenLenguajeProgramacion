@@ -1,0 +1,9 @@
+INDEX VERSION 1.134+E:\04-CIBERTEC\Ciclo 04\lenguaje_progra_2\EXAMENES\proyecto-jpa-main\.metadata\.plugins\org.eclipse.jdt.core
+1359730595.index
+354557628.index
+2060029113.index
+1604613283.index
+1790338458.index
+425627114.index
+1865797976.index
+1396288158.index
